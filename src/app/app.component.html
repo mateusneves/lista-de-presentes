@@ -41,7 +41,7 @@
     </div>
     <h4>Insira seu nome e depois clique em Confirmar</h4>
     <div>
-      <input class="form-input" type="text" [(ngModel)]="nomeConvidado">
+      <input placeholder="Insira seu nome" class="form-input" type="text" [(ngModel)]="nomeConvidado">
       <div *ngIf="inputError" style="font-size: 12px; color: red; margin-bottom: 15px;">
         Por favor, insira seu nome, e após clique em confirmar.
       </div>
